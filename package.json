@@ -67,6 +67,7 @@
   "devDependencies": {
     "@types/swiper": "^5.4.3",
     "node-sass": "npm:sass",
-    "sass": "^1.43.4"
+    "sass": "^1.43.4",
+    "tailwindcss": "^3.3.2"
   }
 }

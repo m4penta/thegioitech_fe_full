@@ -1,12 +1,20 @@
-import { Cart, Footer, Header } from '../component';
+import { Cart, Footer, Header } from "../component";
+import { Navbar } from "../component/layout/header/navbar";
+import { Categori, Wrapper } from "../styles/styled";
 
 const CartPage = () => {
   return (
     <>
       <Header />
-      <main className='main-global-wrap'>
-        <Cart />
-      </main>
+      <Categori>
+        <Navbar />
+        <Wrapper>
+          <main className="main-global-wrap">
+            <Cart />
+          </main>
+        </Wrapper>
+      </Categori>
+
       <Footer />
     </>
   );
